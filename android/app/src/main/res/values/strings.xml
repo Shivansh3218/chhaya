@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Chhaya</string>
+    <string name="title_activity_main">Chhaya</string>
+    <string name="package_name">in.chhaya.game</string>
+    <string name="custom_url_scheme">in.chhaya.game</string>
+</resources>

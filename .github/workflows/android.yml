@@ -1,0 +1,49 @@
+name: Android APK
+
+# Builds the game for the web, wraps it with Capacitor and builds a debug APK.
+# The APK is attached to the "latest" release (and kept as a workflow artifact).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - run: npm ci
+      - run: npm run build
+      - run: npx cap sync android
+      - name: Build the APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+      - run: cp android/app/build/outputs/apk/debug/app-debug.apk Chhaya.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Chhaya-apk
+          path: Chhaya.apk
+      - name: Publish to the "latest" release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Chhaya — latest build
+          body: |
+            Debug APK built from the latest commit on main. Install it on an Android phone
+            (allow "install unknown apps" for your browser or file manager). Landscape, offline.
+          files: Chhaya.apk
+          prerelease: true
+          make_latest: true

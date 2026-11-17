@@ -1,0 +1,121 @@
+[
+ {
+  "name": "trees_mid_a",
+  "w": 1536,
+  "h": 1024,
+  "seed": 11,
+  "prompt": "2D side-scrolling game background layer, wide panorama of giant banyan trees in an Indian forest, thick trunks and curtains of hanging aerial roots, dense leaf canopy, flat dark charcoal silhouettes on a plain pure white background, no ground, no sky, no colour, crisp organic edges, detailed leaves, minimalist silhouette illustration"
+ },
+ {
+  "name": "trees_mid_b",
+  "w": 1536,
+  "h": 1024,
+  "seed": 23,
+  "prompt": "2D side-scrolling game background layer, wide panorama of giant banyan trees in an Indian forest, thick twisted trunks and curtains of hanging aerial roots, dense leaf canopy at the top, flat dark charcoal silhouettes on a plain pure white background, no colour, crisp organic edges, minimalist silhouette illustration"
+ },
+ {
+  "name": "trees_far_a",
+  "w": 1536,
+  "h": 1024,
+  "seed": 31,
+  "prompt": "2D game parallax background layer, a row of banyan trees in the middle distance with hanging aerial roots, medium sized trees spread across the whole width, flat black silhouettes on a plain pure white background, no ground, no colour, minimalist silhouette illustration"
+ },
+ {
+  "name": "trees_far_b",
+  "w": 1536,
+  "h": 1024,
+  "seed": 37,
+  "prompt": "2D game parallax background layer, distant Indian forest of banyan and peepal trees with hanging aerial roots, many trees spread evenly across the whole width, flat black silhouettes on a plain pure white background, no colour, minimalist silhouette illustration"
+ },
+ {
+  "name": "trees_far2_a",
+  "w": 1536,
+  "h": 1024,
+  "seed": 41,
+  "prompt": "2D game parallax background layer, very distant misty forest skyline, small rounded tree canopies along the lower half, flat black silhouettes on a plain pure white background, no colour, minimalist silhouette illustration"
+ },
+ {
+  "name": "sky_a",
+  "w": 1536,
+  "h": 864,
+  "seed": 43,
+  "prompt": "empty misty dusk sky over a forest, soft hazy light glowing low on the right behind clouds, cool slate grey at the top fading to warm pale grey-gold near the horizon, gentle diagonal light rays, painterly, muted, monochrome with a hint of warmth, no trees, no objects"
+ },
+ {
+  "name": "fg_roots_a",
+  "w": 1536,
+  "h": 512,
+  "seed": 47,
+  "prompt": "hanging jungle vines, aerial roots and a few leaves dangling down from the top edge of the image, flat black silhouettes on a plain pure white background, empty white lower half, minimalist silhouette illustration"
+ },
+ {
+  "name": "fg_ferns_a",
+  "w": 1536,
+  "h": 512,
+  "seed": 53,
+  "prompt": "ferns, tall wild grass and small plants growing along the bottom edge of the image, flat black silhouettes on a plain pure white background, empty white upper half, minimalist silhouette illustration"
+ },
+ {
+  "name": "trunk_a",
+  "w": 512,
+  "h": 1536,
+  "seed": 59,
+  "prompt": "a single huge banyan tree trunk, tall and vertical, rising out of the top of the image, wide buttress roots spreading at the base, a few thin aerial roots hanging beside it, flat black silhouette on a plain pure white background, no leaves, minimalist silhouette illustration"
+ },
+ {
+  "name": "bough_a",
+  "w": 1536,
+  "h": 384,
+  "seed": 61,
+  "prompt": "one long horizontal tree branch reaching in from the left edge and thinning to the right, small clusters of leaves along it, flat black silhouette on a plain pure white background, side view, minimalist silhouette illustration"
+ },
+ {
+  "name": "cart_a",
+  "w": 1024,
+  "h": 512,
+  "seed": 67,
+  "prompt": "side view of a small old wooden hand cart bed with planks and side rails, no wheels, flat black silhouette on a plain pure white background, simple, minimalist silhouette illustration"
+ },
+ {
+  "name": "wheel_a",
+  "w": 512,
+  "h": 512,
+  "seed": 71,
+  "prompt": "an old wooden cart wheel with eight spokes and a hub, front view, centred, flat black silhouette on a plain pure white background, minimalist silhouette illustration"
+ },
+ {
+  "name": "ground_a",
+  "w": 1024,
+  "h": 1024,
+  "seed": 73,
+  "prompt": "seamless tileable texture of very dark forest soil seen from the side, buried stones, thin roots and pebbles, almost black with faint dark grey detail, low contrast"
+ },
+ {
+  "name": "head_a",
+  "w": 512,
+  "h": 512,
+  "seed": 79,
+  "prompt": "side profile silhouette of a little Indian girl's head facing right, round head, small nose, hair pulled back into a bun at the back, no braid, no neck, centred, flat black silhouette on a plain pure white background, minimalist"
+ },
+ {
+  "name": "head_b",
+  "w": 512,
+  "h": 512,
+  "seed": 83,
+  "prompt": "side view silhouette of a small child's head facing right, cute round head, small button nose, hair tied in a bun at the back of the head, cut off at the chin, flat black shape on a plain pure white background, minimalist icon"
+ },
+ {
+  "name": "skirt_a",
+  "w": 768,
+  "h": 512,
+  "seed": 89,
+  "prompt": "a child's flared lehenga skirt seen from the side, gathered at the waist and flaring out to a soft uneven hem, knee length, flat black silhouette on a plain pure white background, no body, minimalist silhouette illustration"
+ },
+ {
+  "name": "diya_a",
+  "w": 768,
+  "h": 384,
+  "seed": 97,
+  "prompt": "a small clay diya oil lamp seen from the side, shallow bowl with a pinched spout on the right, no flame, flat black silhouette on a plain pure white background, minimalist"
+ }
+]

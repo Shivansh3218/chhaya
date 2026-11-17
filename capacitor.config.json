@@ -1,0 +1,6 @@
+{
+  "appId": "in.chhaya.game",
+  "appName": "Chhaya",
+  "webDir": "dist",
+  "android": { "backgroundColor": "#000000" }
+}
